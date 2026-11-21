@@ -11,7 +11,7 @@ def calculateIntegerRanges(bits: int):
 def getBitCount():
     while True:
         try:
-            bits = int(input("How many bits do you want to calculate? "))
+            bits = int(input("How many bits: "))
             if bits > 0:
                 return bits
             print("Enter a positive whole number.")
